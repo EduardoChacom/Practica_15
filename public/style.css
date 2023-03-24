@@ -1,3 +1,7 @@
+body{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
 .input_01 {
     border: none;
     background-color: transparent;
@@ -5,6 +9,8 @@
     margin-bottom: 20px;
     padding: 10px;
     width: 100%;
+    outline: none;
+    font-size: 20px;
 }
 
 #boton {
@@ -12,6 +18,7 @@
     border: none;
     color: white;
     padding: 10px 20px;
+    font-size: 20px;
 }
 
 .card_01 {
@@ -21,6 +28,7 @@
 }
 
 .tabla_01 {
+    font-size: 20px;
     border-collapse: collapse;
     margin: 20px 0;
     width: 100%;
