@@ -1,43 +1,46 @@
-/* urlenconded, "debes de parcear las peticiones!" */
-h1 {
-    color: red;
-}
-
-p {
-    color: #f0f0f0;
-}
-
-body {
-    margin-top: 20px;
-    background-color: #121212;
-    color: #f0f0f0;
-}
-
-input {
-    border-radius: 5px;
-}
-
-.tabla_01 {
+.input_01 {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    padding: 10px;
     width: 100%;
-    border-collapse: collapse;
-    background-color: #2a2929;
 }
 
-.tabla_01 td {
-    height: 50px;
+#boton {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 20px;
 }
 
 .card_01 {
-    background-color: #2a2929;
-    text-align: center;
-    border-radius: 10px;
-    padding: 10px;
-    margin-left: 200px;
-    margin-right: 200px;
-    border-left: 5px #545151 solid;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-#boton{
+.tabla_01 {
+    border-collapse: collapse;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.tabla_01 th {
     background-color: transparent;
-    color: #f0f0f0;
+    color: black;
+    font-weight: normal;
+    padding: 10px;
+    text-align: left;
+}
+
+.tabla_01 td {
+    border-bottom: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+
+.encabezado {
+    background-color: #f2f2f2;
 }

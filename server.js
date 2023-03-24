@@ -8,11 +8,14 @@ app.use(express.urlencoded({ extended: false }));
 
 app.set('view engine', 'ejs');
 
+// recoge los datos para renderizarlos en otra vista.
 app.get('/student', (req, res) => {
   let t = req.params.id;
   res.render('student');
 });
 
+// post solo despacha el contenido del BODY mediante
+// el metodo send.
 app.post('/addStudent', (req, res) => {
   res.render('displayData', {
   nombre: req.body.nombre,
